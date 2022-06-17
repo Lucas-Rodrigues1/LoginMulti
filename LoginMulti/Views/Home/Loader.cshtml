@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>jQuery UI Menu functionality</title>
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <link href="~/css/LoaderStyle.css" rel="stylesheet" />
+
+
+    <script>
+        $(function () {
+            $("#progressbar").progressbar({
+                value: false
+            });
+            $("button").on("click", function (event) {
+                var target = $(event.target),
+                    progressbar = $("#progressbar"),
+                    progressbarValue = progressbar.find(".ui-progressbar-value");
+
+                if (target.is("#falseButton")) {
+                    progressbar.progressbar("option", "value", false);
+                }
+            });
+        });
+    </script>
+    <style>
+        #progressbar .ui-progressbar-value {
+            background-color: rgb(63, 128, 212);
+        }
+    </style>
+    </head>
+
+
+    <body>
+        <!-- <input type="text" placeholder="precisa de ajuda?"> <button id="search">Buscar</button> -->
+
+        <div id="content"></div>
+
+
+        <div id="progressbar"></div>
+    </body>
+
+
+
+
+    <script>
+
+
+    </script>
+</html> 

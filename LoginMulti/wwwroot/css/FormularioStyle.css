@@ -1,0 +1,205 @@
+﻿.erros {
+    width: 390px;
+    height: 30px;
+    padding: 5px;
+    background: rgb(238, 249, 113, 0.9);
+    margin-left: 45%;
+    margin-top: -70px;
+    position: absolute;
+    border: 1px solid rgb(222, 239, 10, 0.9);
+    border-radius: 4px;
+    color: #333;
+}
+
+.ok {
+    width: 390px;
+    height: 30px;
+    padding: 5px;
+    background: rgb(238, 249, 113, 0.9);
+    margin-left: 45%;
+    margin-top: -10px;
+    position: absolute;
+    border: 1px solid rgb(222, 239, 10, 0.9);
+    border-radius: 4px;
+    color: #333;
+}
+
+#formulario {
+    width: 1300px;
+    margin: 110px auto;
+    text-align: center;
+    position: relative;
+}
+
+    #formulario h2 {
+        font: 35px "Arial";
+        color: #2f6c97;
+        margin-top: 10px;
+        margin-left: 4px;
+        float: left;
+        text-align: left;
+        font-weight: 100;
+    }
+
+    #formulario h3 {
+        font: 17px "Arial";
+        color: #333;
+        width: 100%;
+        float: left;
+        text-align: left;
+        margin-bottom: 4%;
+    }
+
+    #formulario fieldset {
+        background: white;
+        border: 0 none;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        box-shadow: 0 0 15px 1px rgba(0,0,0, 0.4);
+        padding: 20px 30px;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0 10%;
+        position: absolute;
+    }
+
+        #formulario fieldset:not(:first-of-type) {
+            display: none;
+        }
+
+    #formulario input, #formulario textarea {
+        padding: 10px;
+        border: 1px solid grey;
+        border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        outline: none;
+        box-sizing: border-box;
+        width: 100%;
+        font: 14px "Trebuchet MS", tahoma, arial;
+        margin-bottom: 10px;
+    }
+
+    #formulario .acao {
+        width: 100px;
+        background: #2f6c97;
+        color: white;
+        font-weight: bold;
+        padding: 12px 0;
+        float: left;
+        margin-right: 5%;
+    }
+
+        #formulario .acao:hover {
+            background: #1b4767;
+            cursor: pointer;
+        }
+
+    #formulario #progress {
+        margin-bottom: 30px;
+        overflow: hidden;
+        margin-left: 150px;
+        counter-reset: step;
+    }
+
+        #formulario #progress li {
+            list-style-type: none;
+            color: rgb(136, 136, 136);
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 11px;
+            float: left;
+            width: 12%;
+            position: relative;
+            margin-top: 100px;
+        }
+
+            #formulario #progress li:before {
+                content: counter(step);
+                counter-increment: step;
+                width: 50px;
+                height: 50px;
+                display: block;
+                line-height: 20px;
+                background: rgb(136, 136, 136);
+                color: transparent;
+                border-radius: 50%;
+                text-align: center;
+                margin: 0 auto 10px auto;
+            }
+
+            #formulario #progress li:after {
+                content: '';
+                width: 100%;
+                background: rgb(136, 136, 136);
+                height: 2px;
+                position: absolute;
+                margin-top: -35px;
+                left: -50%;
+                z-index: -1;
+            }
+
+            #formulario #progress li:first-child:after {
+                content: none;
+            }
+
+            #formulario #progress li.ativo:before, #formulario #progress li.ativo:after {
+                background: rgb(38,153,23);
+                color: transparent;
+                text-shadow: 0 1px 0;
+                text-align: center;
+            }
+
+
+
+
+
+.primeiro {
+    margin-left: 71px;
+    margin-top: 122px;
+    position: absolute;
+    color: white;
+}
+
+.segundo {
+    margin-left: 220px;
+    margin-top: 122px;
+    position: absolute;
+    color: white;
+}
+
+.terceiro {
+    margin-left: 369px;
+    margin-top: 122px;
+    position: absolute;
+    color: white;
+}
+
+.quarto {
+    margin-left: 518px;
+    margin-top: 122px;
+    position: absolute;
+    color: white;
+}
+
+.quinto {
+    margin-left: 667px;
+    margin-top: 122px;
+    position: absolute;
+    color: white;
+}
+
+.sexto {
+    margin-left: 816px;
+    margin-top: 122px;
+    position: absolute;
+    color: white;
+}
+
+.setimo {
+    margin-left: 965px;
+    margin-top: 122px;
+    position: absolute;
+    color: white;
+}

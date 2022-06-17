@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="~/js/Jquery.js"></script>
+
+    <link href="~/css/FormularioStyle.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="resp"></div>
+
+
+    <form id="formulario" action="#" method="post" enctype="multipart/form-data" name="formulario">
+
+
+
+        <ul id="progress">
+            <li class="ativo">Cargas</li>
+            <div class="primeiro">1</div>
+            <li id="um">NF-e</li>
+            <div class="segundo">2</div>
+            <li>Frete</li>
+            <div class="terceiro">3</div>
+            <li>CT-e</li>
+            <div class="quarto">4</div>
+            <li>MDF-e</li>
+            <div class="quinto">5</div>
+            <li>Integração</li>
+            <div class="sexto">6</div>
+            <li>Impressão</li>
+            <div class="setimo">7</div>
+        </ul>
+
+
+
+
+        <fieldset>
+            <h2>Cargas</h2>
+            <h3></h3>
+            <input type="text" id="email" name="text" placeholder="Informe o tipo de carga" SIZE=10 MAXLENGTH=10 />
+            <input type="text" id="senha" name="text" placeholder="Informe a placa do veículo" SIZE=3 MAXLENGTH=3 />
+            <input type="text" id="csenha" name="text" placeholder="Informe a rota da carga" SIZE=1 MAXLENGTH=1 />
+            <input type="button" name="next1" class="next acao" value="Próximo" />
+        </fieldset>
+
+        <fieldset>
+            <h2>NF-E</h2>
+            <h3></h3>
+            <input type="text" name="text" placeholder="Informe o número da nota fiscal" />
+            <input type="text" name="text" placeholder="Informe a data da emissão inicial e final" />
+            <input type="text" name="text" placeholder="Informe o valor da nota fiscal" />
+            <input type="button" name="prev" class="prev acao" value="Anterior" />
+            <input type="button" name="next2" class="next acao" value="Próximo" />
+        </fieldset>
+
+        <fieldset>
+            <h2>Frete</h2>
+            <h3></h3>
+            <input type="text" name="text" placeholder="Informe o valor do frete" />
+            <input type="text" name="text" placeholder="Informe o estado de origem e o destino final" />
+            <input type="text" name="text" placeholder="Informe a placa do veículo responsável" />
+            <input type="button" name="prev" class="prev acao" value="Anterior" />
+            <input type="button" name="next3" class="next acao" value="Próximo" />
+        </fieldset>
+
+        <fieldset>
+            <h2>CT-E</h2>
+            <h3></h3>
+            <input type="text" name="text" placeholder="Informe o remetente" />
+            <input type="text" name="text" placeholder="Informe a placa do veículo responsável" />
+            <input type="text" name="text" placeholder="Informe a data de emissão inicial e final" />
+            <input type="button" name="prev" class="prev acao" value="Anterior" />
+            <input type="button" name="next4" class="next acao" value="Próximo" />
+        </fieldset>
+
+        <fieldset>
+            <h2>MDF-e</h2>
+            <h3></h3>
+            <input type="text" name="text" placeholder="Informe o transportador responsável" />
+            <input type="text" name="text" placeholder="Informe a origem e o percurso" />
+            <input type="text" name="text" placeholder="Informe o CNPJ do fornecedor" />
+            <input type="button" name="prev" class="prev acao" value="Anterior" />
+            <input type="button" name="next5" class="next acao" value="Próximo" />
+        </fieldset>
+
+        <fieldset>
+            <h2>Integração</h2>
+            <h3></h3>
+            <input type="text" name="text" placeholder="Configuração NFS-e" />
+            <input type="text" name="text" placeholder="Complementos de Frete" />
+            <input type="text" name="text" placeholder="MDF-es emitidos" />
+            <input type="button" name="prev" class="prev acao" value="Anterior" />
+            <input type="button" name="next6" class="next acao" value="Próximo" />
+        </fieldset>
+
+        <fieldset>
+            <h2>Impressão</h2>
+            <h3></h3>
+            <input type="text" name="primeiro" placeholder="Impressão de documentos" />
+            <input type="text" name="segundo" placeholder="Configuração NFS-e" />
+            <input type="text" name="telefone" placeholder="Complementos de Frete" />
+            <input type="button" name="prev" class="prev acao" value="Anterior" />
+            <input type="submit" name="next" class="acao" value="Enviar" />
+    </form>
+    </fieldset>
+
+
+
+    <script src="~/js/Functions.js"></script>
+    <script src="jQuery 3.6.0.js"></script>
+
+</body>
+</html>

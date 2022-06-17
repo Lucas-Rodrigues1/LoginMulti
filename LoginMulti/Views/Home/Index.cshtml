@@ -1,0 +1,56 @@
+﻿@model FormModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/site.css" rel="stylesheet" />
+    <script src="~/js/Jquery.js"></script>
+    <title>MultiEmbarcador - Acesso ao Sistema</title>
+</head>
+<body>
+    <header>
+        <div class="titulos">
+            <div class='multi'><h1>Multi</h1></div>
+            <div class='embarcador'><h2>Embarcador</h2></div>
+        </div>
+    </header>
+
+    <form asp-action="Index" asp-controller="Home">
+
+    <div class="container">
+
+        <div class="head">
+            Acesso ao Sistema
+        </div>
+        <div class="inpute">
+            <section class="first">
+                <label asp-for="Nome">Usuário:</label>
+                <input asp-for="Nome" required id="Nome">
+            </section>
+
+
+            <section class="second">
+                <label asp-for="Senha">Senha:</label>
+                <input asp-for="Senha" type="password" required id="Senha">
+            </section>
+
+
+        </div>
+        <div class="footere">
+            <div class="senha"> <a href="">Esqueci a senha</a></div>
+            <div><button type="submit" class="acessar" id="Acessar">Acessar</button></div>
+            <a  class="cad" asp-area="" asp-controller="Home" asp-action="Privacy">Cadastrar</a>
+
+        </div>
+
+    </div>
+    </form>
+    <script src="https://kit.fontawesome.com/d2ca3dc551.js" crossorigin="anonymous"></script>
+    <script src="~/js/site.js"></script>
+</body>

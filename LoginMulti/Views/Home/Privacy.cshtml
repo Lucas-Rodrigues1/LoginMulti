@@ -1,0 +1,58 @@
+﻿@model FormModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="C:\Users\Lucas\Documents\Projetos\MultiTMS-V1\LoginMultiTMS\MultiTMS\img\iconTMS.ico" type="image/x-icon">
+
+
+    <link href="~/css/Cadastro.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/cesiumjs/1.78/Build/Cesium/Cesium.js"></script>
+    <script src="~/js/Jquery.js"></script>
+    <title>Cadastro - MultiTMS</title>
+</head>
+<body>
+ 
+
+
+    <div class="container">
+        <div class="container_header">
+            <h1>Cadastro</h1>
+        </div>
+
+        <form asp-action="Privacy" asp-controller="Home" cla ss="content">
+            <label asp-for="Nome">Nome:<input asp-for="Nome" id="nome" placeholder="Digite seu nome" required></label>
+            <label asp-for="Telefone">Telefone:<input asp-for="Telefone" id=telefone placeholder="Digite seu telefone" required></label>
+            <label asp-for="Email">E-mail:<input asp-for="Email" id=email placeholder="Digite seu E-mail" required></label>
+            <label asp-for="Senha">Senha:<input asp-for="Senha" type="password" id=cep placeholder="Digite sua Senha" required></label>
+            <label asp-for="Cidade">Cidade:<input asp-for="Cidade" id=cidade placeholder="Digite sua Cidade" required></label>
+            <label asp-for="Estado">Estado:<input asp-for="Estado" id=estado placeholder="Digite seu Estado" required></label>
+            <label asp-for="Endereco">Endereço:<input asp-for="Endereco" id=endereco placeholder="Digite seu endereço" required></label>
+            <label asp-for="Numero">Número:<input asp-for="Numero" id="numero" name="numero" placeholder="Digite número de sua residência" required></label>
+
+
+            <div class="container_footer">
+                <div class="button_card">
+                    <button type="submit" id="validar"><a href="#">Cadastrar</a></button>
+                </div>
+            </div>
+        </form>
+
+
+
+
+
+    </div>
+
+    <script src="~/js/site.js"></script>
+</body>
+
+
+</html>

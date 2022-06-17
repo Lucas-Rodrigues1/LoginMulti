@@ -1,0 +1,374 @@
+﻿/* ------------------------------------  TÍTULO --------------------------------     */
+body {
+    background-color: #F0F1F1;
+}
+
+.multi {
+    margin-left: 22px;
+    position: relative
+}
+
+    .multi h1 {
+        position: absolute;
+        margin-top: 14px;
+    }
+
+.embarcador {
+    position: absolute;
+    margin-top: -10px;
+}
+
+header {
+    margin-top: -4px;
+    margin-right: -30px;
+}
+
+.titulos {
+    margin: -8px;
+    margin-top: -13px;
+    background-color: #e9e9e9;
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(#F0F0F0, #E2E2E2);
+}
+
+h1 {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    color: gray;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin: 35px 18px;
+    font-family: sans-serif;
+    color: rgb(15, 97, 15);
+    font-weight: 1000;
+    font-style: italic;
+    position: absolute;
+}
+
+.formulario {
+    position: relative;
+    width: 190px;
+}
+
+/* ---------------------  FORMULÁRIO E PA --------------------------------    */
+.botoes {
+    float: right;
+    display: flex;
+    margin: -35px 50px;
+    gap: 5px;
+}
+
+    .botoes .expansao {
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .botoes .saida {
+        height: 30px;
+        width: 30px;
+        margin-top: -1px;
+        cursor: pointer;
+    }
+
+    .botoes .pesquisa {
+        height: 30px;
+        width: 30px;
+        margin-top: -1px;
+        cursor: pointer;
+    }
+
+    .botoes .formulario {
+        height: 23px;
+    }
+
+/* ------ ICONE ------  */
+
+.fa-magnifying-glass {
+    position: absolute;
+    margin-left: -29px;
+    margin-top: 7px;
+}
+
+/* -------------------------------  CENTRO ---------------------------------     */
+.cor {
+    background-color: #D6DDE7;
+    border-left: 5px solid #8fb1c9;
+    margin-left: 240px;
+    width: 1630px;
+    height: 230px;
+    color: #2f6c97;
+}
+
+h3 {
+    margin-left: 270px;
+    font-size: 25px;
+    font-weight: 100;
+    color: #4C4F53;
+}
+
+.cor p {
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.text {
+    background-color: #D6DDE7;
+    height: 220px;
+}
+
+p {
+    position: absolute;
+    margin-top: 10px;
+}
+/* ------------------------------  BARRA DA ESQUERDA ---------------------------------     */
+
+.container {
+    margin-left: -8px;
+    margin-top: -404px;
+    height: 1000px;
+    width: 230px;
+    background-color: #3A3633;
+    color: rgb(187, 187, 187);
+    font-size: 17px;
+    border-right: 7px solid rgba(39, 39, 39, 0.568);
+}
+
+li {
+    list-style: none;
+    padding: 8px;
+}
+
+.header_container {
+    margin-top: 76px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 100;
+    border-bottom: 2px solid #000000;
+}
+
+    .header_container p {
+        margin-left: 10px;
+        margin-top: -1px;
+    }
+
+    .header_container a {
+        margin-left: 10px;
+    }
+
+.home a {
+    margin-left: 8px;
+}
+
+.gestao a {
+    margin-left: 8px;
+}
+
+.logistica a {
+    margin-left: 17px;
+}
+
+.logistica li a {
+    margin-left: -23px;
+}
+
+.dados {
+    margin-left: -30px;
+}
+
+.dropdown a {
+    margin-left: -20px;
+}
+
+/* ------------ HOVER ------------------ */
+
+.header_container:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.home:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.gestao:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.logistica:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown .hover:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.alterar {
+    margin-left: -60px;
+}
+
+.dropdown li a {
+    color: rgb(168, 168, 168);
+}
+
+    .dropdown li a:hover {
+        color: rgb(255, 255, 255);
+    }
+
+.logistica li a {
+    color: rgb(168, 168, 168);
+}
+
+    .logistica li a:hover {
+        color: rgb(255, 255, 255);
+    }
+
+/* ----------------- ICONE ----------------------- */
+
+.fa-xs {
+    margin-left: 48px;
+}
+
+.logistica .fa-xs {
+    margin-left: 100px;
+}
+
+.fa-user {
+    margin-left: 10px;
+}
+
+.fa-square-plus {
+    position: absolute;
+    margin-top: 10px;
+}
+
+#btn2 {
+    margin-left: 91px;
+}
+
+#alterar {
+    margin-left: 1px;
+    margin-top: 10px;
+}
+
+#icone0, #icone1, #icone2, #icone3, #icone4 {
+    margin-left: 145px;
+    margin-top: -8px;
+}
+
+#icon0 {
+    margin-left: 50px;
+}
+
+#icon1 {
+    margin-left: 65px;
+}
+
+#icon2 {
+    margin-left: 78px;
+}
+
+/* ------------------- PARA DEIXAR O SCROLL LATERAL PEQUENO ---------------------- */
+
+body::-webkit-scrollbar {
+    width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(168, 168, 168);
+    border-radius: 20px;
+}
+
+body::-webkit-resizerr {
+    width: 6px;
+}
+
+/* -------------------- DROPDOWN------------------- */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.dropdown-content {
+    display: none;
+    overflow: auto;
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        color: white;
+        text-decoration: none;
+        display: block;
+    }
+
+
+.dropdown-content2 {
+    display: none;
+    overflow: auto;
+    z-index: 1;
+}
+
+    .dropdown-content2 a {
+        color: white;
+        text-decoration: none;
+        display: block;
+    }
+
+.show {
+    display: block;
+}
+
+/* ---------------------- FOOTER ----------------------- */
+
+.card-footer {
+    background-color: #2A2725;
+    height: 50px;
+    line-height: 35px;
+    font-family: sans-serif;
+    position: relative;
+    font-size: 12px;
+    width: 1676px;
+    margin-left: 228px;
+    margin-top: -50px;
+}
+
+.card-titulo-footer {
+    color: white;
+    margin-left: 20px;
+}
+
+.card-footer a {
+    text-decoration: none;
+    color: #365ab3;
+    font-weight: 600;
+    font-style: none;
+    font-weight: 100;
+}
+
+    .card-footer a:hover {
+        color: #283E75;
+    }
+
+footer i {
+    background-color: #4E7A8D;
+    padding: 4px 10px;
+    margin-left: 925px;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-top: 6px;
+    position: absolute;
+}

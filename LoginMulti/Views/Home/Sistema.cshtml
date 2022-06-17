@@ -1,0 +1,150 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="~/js/Jquery.js"></script>
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <title>Home</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="~/css/LoaderStyle.css" rel="stylesheet" />
+    <link rel="stylesheet" href="loaders.css">
+    <link href="~/css/FormularioStyle.css" rel="stylesheet" />
+    <link href="~/css/StyleSistema.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+    <header>
+        <div class="titulos">
+            <div class='multi'><h1>Multi</h1></div>
+            <div class='embarcador'><h2>Embarcador</h2></div>
+        </div>
+
+        <div class="botoes">
+            <div>
+                <button class="expansao"><i class="fa-solid fa-up-down-left-right"></i></button>
+            </div>
+            <div>
+                <input class="formulario" type="text" placeholder="Pesquisa de Formulários"><i class="fa-solid fa-magnifying-glass"></i></input>
+            </div>
+            <div>
+                <button class="saida"><i class="fa-solid fa-arrow-right-from-bracket"></i></button>
+            </div>
+            <div>
+                <button class="pesquisa"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <div class="centro" id="center">
+        <h3>
+            <b>
+                Bem vindo ao Multi<br>
+                Embarcador
+            </b>
+        </h3>
+        <div class="cor">
+            <div class="text">
+                <div id="texto">
+                    <p>
+                        <span style="color:#164b85"><b><i class="fa-solid fa-circle-info"></i>Ambiente de Homologação - WestRock </b></span><br>
+                        Olá! Este é o ambiente de homologação do Multiembarcador para a WestRock,<br>
+                        <br>
+                        Nele faremos as configurações e validações para a implantação de todos os módulos previstos nas fases de negociação, workshops e BBP. <br>
+                        <br>
+                        Dúvidas podem entrar em contato nos seguintes emails: <br>
+                        <br>
+                        toniazzo@multisoftware.com.br
+                        <br>
+                        atendimento@multisoftware.com.br
+                        <br> <br>
+                        Obrigado por escolher a Multisoftware e vamos em frente!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="menu_container">
+            <div class="header_container">
+                <p><i class="fa-solid fa-user fa-xs"></i><a>Poliana Coppini</a></p>
+            </div>
+            <div class="dados">
+                <ul>
+                    <div id="homee">
+                    <li class="home"><i class="fa-solid fa-house-chimney"></i><a href="index.html">Home</a></li>
+            </div>
+            <li class="gestao" onclick="myFunction()">
+                <i class="fa-solid fa-chart-column"></i><a>Gestão de Cargas</a><i onclick="myFunction()" id="btn1" class="fa-regular fa-square-plus fa-xs"></i>
+                <div id="myDropdown" class="dropdown-content">
+                    <ul class="dropdown">
+                        <li class="hover" id="etapas"><a>Cargas</a></li>
+                        <li class="hover"><a>Cancelamento</a></li>
+                        <li class="hover"><a>Encerramento</a></li>
+                        <li class="hover"><a>Pedidos</a></li>
+                        <li class="hover">
+                            <a>
+                                Acompanhamento<br>
+                                Pedidos
+                            </a>
+                        </li>
+                        <li class="hover"><a>Carregamento</a></li>
+                        <li class="hover"><a>Carregamento Mapa</a></li>
+                        <li class="hover"><a>Transbordo</a></li>
+                        <li class="hover"><a>Indicadores</a></li>
+                        <li class="hover"><a>Importar Pedidos</a></li>
+                        <li class="hover"><a><i class="fa-solid fa-map-pin fa-2xs"></i>&nbsp&nbspMDF-e</a><i id="icone0" class="fa-regular fa-square-plus fa-2xs"></i></li>
+                        <li class="hover"><a><i class="fa-solid fa-pen-to-square fa-2xs"></i>&nbsp&nbspConfigurações</a><i id="icone1" class="fa-regular fa-square-plus fa-2xs"></i></li>
+                        <li class="hover"><a><i class="fa-solid fa-file-lines fa-2xs"></i>&nbsp&nbspRelatórios</a><i id="icone2" class="fa-regular fa-square-plus fa-2xs"></i></li>
+                        <li class="hover"><a><i class="fa-solid fa-chart-column fa-2xs"></i>&nbsp&nbspGráficos</a><i id="icone3" class="fa-regular fa-square-plus fa-2xs"></i></li>
+                        <li class="hover"><a><i id="alterar" class="fa-solid fa-magnifying-glass fa-2xs"></i>&nbsp&nbsp&nbsp&nbsp&nbspConsultas</a><i id="icone4" class="fa-regular fa-square-plus fa-2xs"></i></li>
+
+                    </ul>
+            </li>
+
+            <li class="logistica">
+                <i class="fa-solid fa-truck"></i><a>Logística</a><i onclick="myFunction2()" id="btn2" class="fa-regular fa-square-plus fa-xs"></i>
+                <div id="myDropdown2" class="dropdown-content2">
+                    <ul>
+                        <li><a>Transportadores</a></li>
+                        <li><a>Veículos</a></li>
+                        <li><a>Percursos</a></li>
+                        <li><a>Motoristas</a></li>
+                        <li><a>Passagens entre Estados</a></li>
+                        <li><a><i class="fa-solid fa-pen-to-square fa-2xs"></i>&nbsp  Configurações <i id="icon0" class="fa-regular fa-square-plus fa-2xs"></i></a></li>
+                        <li><a><i class="fa-solid fa-upload fa-2xs"></i>&nbsp  Importações <i id="icon1" class="fa-regular fa-square-plus fa-2xs"></i></a></li>
+                        <li><a><i class="fa-solid fa-file-lines fa-2xs"></i> &nbsp  Relatórios <i id="icon2" class="fa-regular fa-square-plus fa-2xs"></i></a></li>
+                    </ul>
+            </li>
+        </div>
+        </ul>
+    </div>
+    </div>
+    </div>
+
+    <footer class="card-footer">
+        <p class="card-titulo-footer">
+            (V_4.15.0.0) Multisoftware Development Center © 2022 |
+            <a href="#">Política de Privacidade </a>| <a href="#">dpo@multisoftware.com.br</a>
+            <i class="fa-solid fa-gears"></i>
+        </p>
+    </footer>
+
+    </div>
+
+    <script src="~/js/DropLoader.js"></script>
+    <script src="~/js/Functions.js"></script>
+    <script src="~/js/loader.js"></script>
+
+    <script src="https://kit.fontawesome.com/3cf21dfe85.js" crossorigin="anonymous"></script>
+</body>
+</html>
