@@ -1,0 +1,7 @@
+Nesse projeto iniciamos com html/css que foi a primeira parte apresentada. Após isso, ao longo dos
+demais cursos, fomos incluindo novas ferramentas que nos permitiram a evolução do projeto, como JavaScript e Jquery,
+por exemplo. E por fim a inclusão de C# e o SQL server, que possibilitou toda a parte de front-end e 
+back-end em um mesmo programa.
+A intenção do projeto, é que após o cadastro realizado pelo cliente, vá para o banco de dados vinculado 
+verificando primeiramente se existe os dados cadastrados no banco, após esse processo, o usuário conseguirá logar e ter
+aceso ao sistema com sua conta pautada e estará salvo no banco de dados todas as suas informações.
